@@ -1,12 +1,17 @@
 {
-  "name": "test-app",
+  "name": "node",
   "version": "1.0.0",
-  "description": "测试应用",
-  "main": "test.js",
+  "description": "node",
+  "main": "index.js",
+  "private": false,
   "scripts": {
-    "start": "node test.js"
+    "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.19.2"
+    "axios": "latest",
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=14"
   }
 }
